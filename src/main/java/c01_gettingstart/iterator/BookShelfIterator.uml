@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c01_gettingstart.iterator.BookShelfIterator</OriginalElement>
+  <nodes>
+    <node x="-113.71920668058453" y="288.3987473903966">c01_gettingstart.iterator.BookShelf</node>
+    <node x="333.998956158664" y="334.3987473903966">c01_gettingstart.iterator.BookShelfIterator</node>
+    <node x="-92.21920668058453" y="77.90083507306889">c01_gettingstart.iterator.Aggregate</node>
+    <node x="310.3622129436326" y="66.40083507306889">c01_gettingstart.iterator.Iterator</node>
+    <node x="-68.21920668058453" y="560.1148225469728">c01_gettingstart.iterator.Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c01_gettingstart.iterator.BookShelfIterator" target="c01_gettingstart.iterator.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelf" target="c01_gettingstart.iterator.Aggregate" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelf" target="c01_gettingstart.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.Aggregate" target="c01_gettingstart.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelf" target="c01_gettingstart.iterator.Book" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelfIterator" target="c01_gettingstart.iterator.BookShelf" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelf" target="c01_gettingstart.iterator.Book" relationship="TO_MANY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelf" target="c01_gettingstart.iterator.BookShelfIterator" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelfIterator" target="c01_gettingstart.iterator.Iterator" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="399.3538622129437" y="195.42856700227384" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c01_gettingstart.iterator.BookShelfIterator" target="c01_gettingstart.iterator.BookShelf" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="0.9007836990595611" showDependencies="true" x="323.49999999999994" y="313.8795893509657" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
