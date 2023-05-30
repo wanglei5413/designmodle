@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c02_adapter.delegate.Print</OriginalElement>
+  <nodes>
+    <node x="-62.114035087719344" y="302.0">c02_adapter.delegate.Print</node>
+    <node x="-64.11403508771934" y="98.73026315789474">c02_adapter.delegate.Main</node>
+    <node x="272.0" y="278.5">c02_adapter.delegate.PrintBanner</node>
+    <node x="548.5065789473684" y="290.0">c02_adapter.delegate.Banner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c02_adapter.delegate.PrintBanner" target="c02_adapter.delegate.Banner" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c02_adapter.delegate.PrintBanner" target="c02_adapter.delegate.Banner" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c02_adapter.delegate.Main" target="c02_adapter.delegate.PrintBanner" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c02_adapter.delegate.PrintBanner" target="c02_adapter.delegate.Print" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c02_adapter.delegate.Main" target="c02_adapter.delegate.Print" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="1.0" showDependencies="true" x="329.0" y="251.5" />
+  <SelectedNodes>
+    <node>c02_adapter.delegate.Banner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

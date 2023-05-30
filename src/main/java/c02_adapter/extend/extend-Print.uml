@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c02_adapter.extend.Print</OriginalElement>
+  <nodes>
+    <node x="548.4144329896907" y="136.62164948453608">c02_adapter.extend.Banner</node>
+    <node x="22.5" y="154.0">c02_adapter.extend.Print</node>
+    <node x="274.17783505154637" y="154.0">c02_adapter.extend.PrintBanner</node>
+    <node x="17.5" y="333.1391752577319">c02_adapter.extend.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c02_adapter.extend.PrintBanner" target="c02_adapter.extend.Banner" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c02_adapter.extend.PrintBanner" target="c02_adapter.extend.Print" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="0.9309021113243762" showDependencies="false" x="428.0" y="312.5" />
+  <SelectedNodes>
+    <node>c02_adapter.extend.Banner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
