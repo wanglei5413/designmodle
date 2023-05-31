@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c03_templateMethod.StringDisplay</OriginalElement>
+  <nodes>
+    <node x="-81.0" y="175.0">c03_templateMethod.CharDisplay</node>
+    <node x="237.0" y="175.0">c03_templateMethod.StringDisplay</node>
+    <node x="66.75" y="0.0">c03_templateMethod.AbstractDisplay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c03_templateMethod.CharDisplay" target="c03_templateMethod.AbstractDisplay" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="-12.5" y="150.0" />
+      <point x="149.75" y="150.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="c03_templateMethod.StringDisplay" target="c03_templateMethod.AbstractDisplay" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="311.0" y="150.0" />
+      <point x="149.75" y="150.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="152.5" y="150.5" />
+  <SelectedNodes>
+    <node>c03_templateMethod.CharDisplay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
