@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c04_factoryMethod.idcard.IDCardFactory</OriginalElement>
+  <nodes>
+    <node x="250.5" y="83.0">c04_factoryMethod.framework.Factory</node>
+    <node x="235.0" y="398.5">c04_factoryMethod.idcard.IDCardFactory</node>
+    <node x="46.0" y="240.5">c04_factoryMethod.framework.Product</node>
+    <node x="19.5" y="427.5">c04_factoryMethod.idcard.IDCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c04_factoryMethod.idcard.IDCardFactory" target="c04_factoryMethod.idcard.IDCard" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="328.07000197697937" y="439.2718769038079" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c04_factoryMethod.idcard.IDCardFactory" target="c04_factoryMethod.framework.Product" relationship="TO_MANY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c04_factoryMethod.idcard.IDCard" target="c04_factoryMethod.framework.Product" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c04_factoryMethod.framework.Factory" target="c04_factoryMethod.framework.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="295.380311386035" y="167.0905264183014" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c04_factoryMethod.idcard.IDCardFactory" target="c04_factoryMethod.framework.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c04_factoryMethod.idcard.IDCardFactory" target="c04_factoryMethod.framework.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="0.9263657957244655" showDependencies="true" x="245.0" y="283.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
