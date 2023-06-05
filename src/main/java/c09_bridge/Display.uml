@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c09_bridge.DisplayImpl</OriginalElement>
+  <nodes>
+    <node x="-200.62873134328362" y="496.4160447761194">c09_bridge.MutilDisplay</node>
+    <node x="314.30597014925365" y="119.80597014925371">c09_bridge.DisplayImpl</node>
+    <node x="-188.62873134328362" y="96.30597014925371">c09_bridge.Display</node>
+    <node x="304.99440298507454" y="417.50559701492534">c09_bridge.StringDisplayImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c09_bridge.Display" target="c09_bridge.DisplayImpl" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c09_bridge.MutilDisplay" target="c09_bridge.DisplayImpl" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c09_bridge.Display" target="c09_bridge.DisplayImpl" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c09_bridge.StringDisplayImpl" target="c09_bridge.DisplayImpl" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c09_bridge.MutilDisplay" target="c09_bridge.Display" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="0.7517531556802244" showDependencies="true" x="225.0" y="388.5" />
+  <SelectedNodes>
+    <node>c09_bridge.StringDisplayImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
