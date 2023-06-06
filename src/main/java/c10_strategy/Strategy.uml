@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c10_strategy.Player</OriginalElement>
+  <nodes>
+    <node x="390.0" y="295.5">c10_strategy.Strategy</node>
+    <node x="672.5" y="73.0">c10_strategy.ProbStrategy</node>
+    <node x="425.0" y="554.5">c10_strategy.WiningStrategy</node>
+    <node x="90.5" y="32.0">c10_strategy.Player</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c10_strategy.WiningStrategy" target="c10_strategy.Strategy" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c10_strategy.Player" target="c10_strategy.Strategy" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c10_strategy.Player" target="c10_strategy.Strategy" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="c10_strategy.ProbStrategy" target="c10_strategy.Strategy" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Organic" zoom="0.9057377049180327" showDependencies="true" x="481.0" y="425.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
