@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c11_composite.Entry</OriginalElement>
+  <nodes>
+    <node x="185.0" y="221.0">c11_composite.Directory</node>
+    <node x="-111.77720207253884" y="232.5">c11_composite.File</node>
+    <node x="41.24999999999997" y="0.0">c11_composite.Entry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c11_composite.Directory" target="c11_composite.Entry" relationship="GENERALIZATION">
+      <point x="-50.25" y="-86.0" />
+      <point x="235.25" y="201.75" />
+      <point x="82.49999999999999" y="201.75" />
+      <point x="82.49999999999999" y="171.0" />
+      <point x="-41.25" y="85.5" />
+    </edge>
+    <edge source="c11_composite.File" target="c11_composite.Entry" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.5" />
+      <point x="-29.27720207253884" y="191.0" />
+      <point x="82.49999999999997" y="191.0" />
+      <point x="-41.25" y="85.5" />
+    </edge>
+    <edge source="c11_composite.Directory" target="c11_composite.Entry" relationship="TO_MANY">
+      <point x="50.25" y="-86.0" />
+      <point x="335.75" y="77.53108808290156" />
+      <point x="164.99999999999997" y="77.53108808290156" />
+      <point x="41.25" y="85.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9125295508274232" showDependencies="true" x="205.0" y="191.5" />
+  <SelectedNodes>
+    <node>c11_composite.Entry</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
