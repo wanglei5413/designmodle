@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c12_decorator.SideBorder</OriginalElement>
+  <nodes>
+    <node x="132.0" y="-2.5">c12_decorator.Display</node>
+    <node x="-8.0" y="237.0">c12_decorator.StringDisplay</node>
+    <node x="492.0" y="397.0">c12_decorator.SideBorder</node>
+    <node x="365.6407035175879" y="232.0">c12_decorator.Border</node>
+    <node x="212.0" y="397.5">c12_decorator.FullBorder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c12_decorator.Border" target="c12_decorator.Display" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="433.1407035175879" y="200.0" />
+      <point x="220.0" y="200.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="c12_decorator.FullBorder" target="c12_decorator.Border" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.5" />
+      <point x="300.0" y="360.0" />
+      <point x="433.1407035175879" y="360.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="c12_decorator.StringDisplay" target="c12_decorator.Display" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="80.0" y="200.0" />
+      <point x="220.0" y="200.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="c12_decorator.SideBorder" target="c12_decorator.Border" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="580.0" y="360.0" />
+      <point x="433.1407035175879" y="360.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed (Bottom to Top)" zoom="0.8058608058608059" showDependencies="false" x="330.0" y="276.1318181818182" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
