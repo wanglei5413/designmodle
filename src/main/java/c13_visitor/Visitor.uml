@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c13_visitor.Element</OriginalElement>
+  <nodes>
+    <node x="140.0" y="-8.0">c13_visitor.Element</node>
+    <node x="15.01492537313436" y="352.82835820895525">c13_visitor.File</node>
+    <node x="-283.203804347826" y="221.94836956521738">c13_visitor.ListVisitor</node>
+    <node x="-283.203804347826" y="93.94836956521739">c13_visitor.Visitor</node>
+    <node x="296.62313432835833" y="329.82835820895525">c13_visitor.Directory</node>
+    <node x="146.0" y="106.0">c13_visitor.Entry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c13_visitor.File" target="c13_visitor.Entry" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.5" />
+      <point x="95.01492537313436" y="320.0" />
+      <point x="220.0" y="320.0" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="c13_visitor.Directory" target="c13_visitor.Entry" relationship="GENERALIZATION">
+      <point x="0.0" y="-97.5" />
+      <point x="393.62313432835833" y="320.0" />
+      <point x="220.0" y="320.0" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="c13_visitor.Entry" target="c13_visitor.Element" relationship="REALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="c13_visitor.ListVisitor" target="c13_visitor.Visitor" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Directed (Bottom to Top)" zoom="0.9469964664310954" showDependencies="false" x="68.0" y="265.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
