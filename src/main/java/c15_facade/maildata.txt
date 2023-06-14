@@ -1,0 +1,5 @@
+alice@techlei.com=alice
+bob@techlei.com=bob
+charlie@techlei.com=charlie
+derk@techlei.com=derk
+fred@techlei.com=fred
