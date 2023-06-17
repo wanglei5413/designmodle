@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c17_observer.GraphObserver</OriginalElement>
+  <nodes>
+    <node x="437.0" y="164.0">c17_observer.GraphObserver</node>
+    <node x="0.0" y="328.0">c17_observer.RandomNumberGenerator</node>
+    <node x="4.0" y="106.0">c17_observer.NumberGenerator</node>
+    <node x="76.83333333333334" y="0.0">c17_observer.Observer</node>
+    <node x="263.0" y="164.0">c17_observer.DigitObserver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c17_observer.NumberGenerator" target="c17_observer.Observer" relationship="DEPENDENCY">
+      <point x="-59.75" y="-86.0" />
+      <point x="63.75" y="86.0" />
+      <point x="100.16666666666666" y="86.0" />
+      <point x="-46.666666666666686" y="28.0" />
+    </edge>
+    <edge source="c17_observer.RandomNumberGenerator" target="c17_observer.NumberGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="c17_observer.GraphObserver" target="c17_observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="518.5" y="86.0" />
+      <point x="415.2546296296297" y="86.0" />
+      <point x="415.2546296296297" y="76.0" />
+      <point x="193.49999999999997" y="76.0" />
+      <point x="46.66666666666663" y="28.0" />
+    </edge>
+    <edge source="c17_observer.NumberGenerator" target="c17_observer.Observer" relationship="TO_MANY">
+      <point x="59.75" y="-86.0" />
+      <point x="183.25" y="86.0" />
+      <point x="146.83333333333334" y="86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="c17_observer.DigitObserver" target="c17_observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="340.0" y="86.0" />
+      <point x="415.2546296296297" y="86.0" />
+      <point x="415.2546296296297" y="76.0" />
+      <point x="193.49999999999997" y="76.0" />
+      <point x="46.66666666666663" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="322.5" y="280.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
