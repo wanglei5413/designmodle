@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c18_memento.game</OriginalElement>
+  <nodes>
+    <node x="-33.5" y="102.08">c18_memento.game.Gamer</node>
+    <node x="55.25" y="419.5466666666667">c18_memento.game.Memento</node>
+    <node x="-386.6477777777778" y="155.12">c18_memento.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c18_memento.Main" target="c18_memento.game.Memento" relationship="DEPENDENCY">
+      <point x="38.75" y="28.0" />
+      <point x="-270.3977777777778" y="468.8266666666667" />
+      <point x="192.5" y="468.8266666666667" />
+      <point x="45.75" y="-74.5" />
+    </edge>
+    <edge source="c18_memento.Main" target="c18_memento.game.Gamer" relationship="CREATE">
+      <point x="-38.75" y="28.0" />
+      <point x="-347.8977777777778" y="191.73777777777778" />
+      <point x="101.0" y="191.73777777777778" />
+      <point x="0.0" y="-132.0" />
+    </edge>
+    <edge source="c18_memento.game.Gamer" target="c18_memento.game.Memento" relationship="CREATE">
+      <point x="0.0" y="132.0" />
+      <point x="-45.75" y="-74.5" />
+    </edge>
+  </edges>
+  <settings layout="Series Parallel" zoom="0.9240246406570843" showDependencies="true" x="-74.0" y="335.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
