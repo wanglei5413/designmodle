@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c19_state.DayState</OriginalElement>
+  <nodes>
+    <node x="0.0" y="175.0">c19_state.SafeFrame</node>
+    <node x="512.0" y="175.0">c19_state.NightState</node>
+    <node x="14.0" y="0.0">c19_state.Context</node>
+    <node x="403.0" y="0.0">c19_state.State</node>
+    <node x="294.0" y="175.0">c19_state.DayState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c19_state.NightState" target="c19_state.State" relationship="REALIZATION">
+      <point x="0.0" y="-97.5" />
+      <point x="611.0" y="150.0" />
+      <point x="502.0" y="150.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="c19_state.SafeFrame" target="c19_state.Context" relationship="REALIZATION">
+      <point x="0.0" y="-155.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="c19_state.DayState" target="c19_state.State" relationship="REALIZATION">
+      <point x="0.0" y="-97.5" />
+      <point x="393.0" y="150.0" />
+      <point x="502.0" y="150.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9306930693069306" showDependencies="false" x="355.0" y="251.63297872340428" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
