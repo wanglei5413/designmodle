@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>c20_flyweight.BigString</OriginalElement>
+  <nodes>
+    <node x="10.5" y="153.0">c20_flyweight.BigCharFactory</node>
+    <node x="62.0" y="0.0">c20_flyweight.BigChar</node>
+    <node x="51.5" y="331.0">c20_flyweight.BigString</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c20_flyweight.BigString" target="c20_flyweight.BigChar" relationship="CREATE">
+      <point x="52.66666666666666" y="-40.0" />
+      <point x="183.16666666666666" y="305.0" />
+      <point x="261.0" y="305.0" />
+      <point x="261.0" y="133.0" />
+      <point x="225.75" y="133.0" />
+      <point x="225.75" y="123.0" />
+      <point x="164.75" y="123.0" />
+      <point x="34.25" y="51.5" />
+    </edge>
+    <edge source="c20_flyweight.BigCharFactory" target="c20_flyweight.BigChar" relationship="CREATE">
+      <point x="60.0" y="-63.0" />
+      <point x="190.5" y="133.0" />
+      <point x="225.75" y="133.0" />
+      <point x="225.75" y="123.0" />
+      <point x="164.75" y="123.0" />
+      <point x="34.25" y="51.5" />
+    </edge>
+    <edge source="c20_flyweight.BigString" target="c20_flyweight.BigCharFactory" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="c20_flyweight.BigString" target="c20_flyweight.BigChar" relationship="TO_MANY">
+      <point x="-52.66666666666666" y="-40.0" />
+      <point x="77.83333333333334" y="305.0" />
+      <point x="0.0" y="305.0" />
+      <point x="0.0" y="133.0" />
+      <point x="35.25" y="133.0" />
+      <point x="35.25" y="123.0" />
+      <point x="96.25" y="123.0" />
+      <point x="-34.25" y="51.5" />
+    </edge>
+    <edge source="c20_flyweight.BigCharFactory" target="c20_flyweight.BigChar" relationship="TO_MANY">
+      <point x="-60.0" y="-63.0" />
+      <point x="70.5" y="133.0" />
+      <point x="35.25" y="133.0" />
+      <point x="35.25" y="123.0" />
+      <point x="96.25" y="123.0" />
+      <point x="-34.25" y="51.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="143.5" y="205.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
